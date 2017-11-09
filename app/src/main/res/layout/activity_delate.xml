@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jonmid.contactosbasededatos.Views.DelateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desea eliminar cotacto"
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"/>
+        <TextView
+        android:id="@+id/id_tv_delate_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/id_tv_delate_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="2dp"/>
+        <TextView
+            android:id="@+id/id_tv_delate_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="phone"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="2dp"/>
+        <TextView
+            android:id="@+id/id_tv_delate_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="2dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="eliminar contacto"
+            android:layout_marginTop="20dp"
+            android:theme="@style/RaisedButtonDark"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:onClick=""
+            android:theme="@style/RaisedButtonDark"/>
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
